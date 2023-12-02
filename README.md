@@ -77,6 +77,28 @@ The program supports the calculation of the area under a mathematical function. 
 
 The irregularfigures() function calculates the area under the selected mathematical function using either the right or left Riemann sum method. It also prints a simple graph of the function within a specified range.
 
+### How it Works:
+
+User Input:
+The user is prompted to choose between the Right Riemann Sum and the Left Riemann Sum.
+
+Interval Division:
+The interval [a, b] is divided into n subintervals of equal width, where a is the lower limit, b is the upper limit, and n is the number of intervals specified by the user.
+
+Sample Points:
+For the Right Riemann Sum, the right endpoint of each subinterval is used as the sample point.
+For the Left Riemann Sum, the left endpoint of each subinterval is used as the sample point.
+
+Function Evaluation:
+The mathematical function (e.g., sin(x), cos(x), etc.) is evaluated at each sample point within its respective subinterval.
+
+Summation:
+The Riemann sum is calculated by summing up the products of the function values and the width of each subinterval.
+
+Display Result:
+The calculated Riemann sum is then displayed to the user.
+
+
 # Printing the Graph of a Mathematical Function
 
 Here's a breakdown of how this function works:
